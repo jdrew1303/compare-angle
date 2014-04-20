@@ -20,9 +20,11 @@ tape("compare-angle", function(t) {
 
   //det M[i] must be > 0
   var M = [
-    [1, 0, 0, 1]
+    [1, 0, 0, 1],
+    [2, 0, 0, 0.5],
+    [0, 1, -1, 0]
   ]
-  var X = [ [0,0] ]
+  var X = [ [0,0], [10, 10], [-3, 1] ]
 
   function xform(i, p) {
     var m = M[i]
