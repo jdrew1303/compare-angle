@@ -51,9 +51,9 @@ Compares the angles ABC and ABD to determine which is greater.
 
 **Returns** A number indicating which angle is larger
 
-* `-1` if angle ABC is greater than angle ABD
+* `+1` if angle ABC is greater than angle ABD
 * `0` if the angles are equal
-* `+1` if angle ABD is greater than angle ABC
+* `-1` if angle ABD is greater than angle ABC
 
 Credits
 =======
