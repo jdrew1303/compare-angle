@@ -23,13 +23,13 @@ var B = [0, 0]
 var C = [-1, 2]
 var D = [1, 1]
 
-console.log(compareAngle(A, B, C, D))
+console.log(compareAngle(A, B, C, D),  compareAngle(A, B, D, C))
 ```
 
 Output:
 
 ```
--1
+1   -1
 ```
 
 Install
